@@ -1,0 +1,8 @@
+openai
+langchain
+qdrant-client
+python-dotenv
+pdfplumber
+python-docx
+pyyaml
+tqdm

@@ -1,7 +1,6 @@
-# Unified Incremental Embedding Pipeline
+# Smart Chunk Incremental Embedding Pipeline
 
 ![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
 
 A production-ready Python application for intelligently embedding any document type into vector databases using OpenAI embeddings and Qdrant Cloud. Built with smart chunking strategies, incremental updates, and comprehensive metadata tracking.
@@ -387,18 +386,6 @@ class CustomProcessor(FileProcessor):
     def extract_structured_sections(self, file_path: str):
         return [{"content": self.extract_text(file_path), "section_name": "Custom Section"}]
 ```
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Built for the RAG community**
-
-Last Updated: January 2025
 
 ---
 
